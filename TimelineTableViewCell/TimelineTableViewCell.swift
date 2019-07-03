@@ -11,11 +11,11 @@ import UIKit
 
 open class TimelineTableViewCell: UITableViewCell {
     
-    @IBOutlet weak open var titleLabel: UILabel!
-    @IBOutlet weak open var descriptionLabel: UILabel!
-    @IBOutlet weak open var lineInfoLabel: UILabel!
-    @IBOutlet weak open var thumbnailImageView: UIImageView!
-    @IBOutlet weak open var illustrationImageView: UIImageView!
+    @IBOutlet weak open var titleLabel: UILabel! // title is the time inside the bubble
+    @IBOutlet weak open var descriptionLabel: UILabel! // the string under the bubble
+    @IBOutlet weak open var lineInfoLabel: UILabel! // 150 minutes (the time on the left)
+    @IBOutlet weak open var thumbnailImageView: UIImageView! // the apple icon next to the bubble
+    @IBOutlet weak open var illustrationImageView: UIImageView! // Sun/moon
 
     @IBOutlet weak var titleLabelLeftMargin: NSLayoutConstraint!
     @IBOutlet weak var lineInfoLabelLeftMargin: NSLayoutConstraint!
