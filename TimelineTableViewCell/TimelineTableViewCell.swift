@@ -12,14 +12,16 @@ import UIKit
 open class TimelineTableViewCell: UITableViewCell {
     
     @IBOutlet weak open var titleLabel: UILabel! // title is the time inside the bubble
-    @IBOutlet weak open var descriptionLabel: UILabel! // the string under the bubble
+    @IBOutlet weak open var commentLabel: UILabel! // the string under the bubble
     @IBOutlet weak open var lineInfoLabel: UILabel! // 150 minutes (the time on the left)
     @IBOutlet weak open var thumbnailImageView: UIImageView! // the apple icon next to the bubble
     @IBOutlet weak open var illustrationImageView: UIImageView! // Sun/moon
 
-    @IBOutlet weak var titleLabelLeftMargin: NSLayoutConstraint!
+    
     @IBOutlet weak var lineInfoLabelLeftMargin: NSLayoutConstraint!
     
+    @IBOutlet weak var titleLabelLeftMargin: NSLayoutConstraint!
+    //    @IBOutlet weak var titleLabelLeftMargin: NSLayoutConstraint!
     open var timelinePoint = TimelinePoint() {
         didSet {
             self.setNeedsDisplay()
@@ -69,7 +71,7 @@ open class TimelineTableViewCell: UITableViewCell {
         lineInfoLabelLeftMargin.constant = timeline.leftMargin - 55
         lineInfoLabel.sizeToFit()
         
-        descriptionLabel.sizeToFit()
+        commentLabel.sizeToFit()
         
         timelinePoint.position = CGPoint(x: timeline.leftMargin + timeline.width / 2, y: titleLabel.frame.origin.y + titleLabel.intrinsicContentSize.height / 2 - timelinePoint.diameter / 2)
 
