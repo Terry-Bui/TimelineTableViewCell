@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99BE9C9622D5E39D00BA71F3 /* TimelineHabitViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99BE9C9522D5E39D00BA71F3 /* TimelineHabitViewCell.xib */; };
-		99BE9C9822D5E47600BA71F3 /* TimelineHabitViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE9C9722D5E47600BA71F3 /* TimelineHabitViewCell.swift */; };
 		AAC0498E1DB88F0A003FEC67 /* TimelineTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC0498C1DB88F0A003FEC67 /* TimelineTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAC0499B1DB88F18003FEC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0499A1DB88F18003FEC67 /* AppDelegate.swift */; };
 		AAC049A01DB88F18003FEC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC0499E1DB88F18003FEC67 /* Main.storyboard */; };
@@ -37,8 +35,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		99BE9C9522D5E39D00BA71F3 /* TimelineHabitViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineHabitViewCell.xib; sourceTree = "<group>"; };
-		99BE9C9722D5E47600BA71F3 /* TimelineHabitViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineHabitViewCell.swift; sourceTree = "<group>"; };
 		AAC049891DB88F0A003FEC67 /* TimelineTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimelineTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC0498C1DB88F0A003FEC67 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
 		AAC0498D1DB88F0A003FEC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,8 +91,6 @@
 		AAC0498B1DB88F0A003FEC67 /* TimelineTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				99BE9C9722D5E47600BA71F3 /* TimelineHabitViewCell.swift */,
-				99BE9C9522D5E39D00BA71F3 /* TimelineHabitViewCell.xib */,
 				AAC0498C1DB88F0A003FEC67 /* TimelineTableViewCell.h */,
 				AAC049AA1DB88F38003FEC67 /* TimelineTableViewCell.swift */,
 				AAE17F091DBA130A00A1C450 /* TimelineTableViewCell.xib */,
@@ -217,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BE9C9622D5E39D00BA71F3 /* TimelineHabitViewCell.xib in Resources */,
 				AAE17F0A1DBA130A00A1C450 /* TimelineTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BE9C9822D5E47600BA71F3 /* TimelineHabitViewCell.swift in Sources */,
 				AAE17F0C1DBA66D000A1C450 /* Timeline.swift in Sources */,
 				AAC049AB1DB88F38003FEC67 /* TimelineTableViewCell.swift in Sources */,
 				AAC049AD1DB89002003FEC67 /* TimelinePoint.swift in Sources */,
