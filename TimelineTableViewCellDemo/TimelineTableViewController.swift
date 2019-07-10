@@ -69,7 +69,7 @@ class TimelineTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TimelineTableViewCell", for: indexPath) as! TimelineTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TimelineHabitViewCell", for: indexPath) as! TimelineHabitViewCell
 
         // Configure the cell...
         guard let sectionData = data[indexPath.section] else {
@@ -85,7 +85,7 @@ class TimelineTableViewController: UITableViewController {
         cell.timeline.frontColor = timelineFrontColor
         cell.timeline.backColor = timelineBackColor
         cell.titleLabel.text = title
-        cell.commentLabel.text = description
+        cell.habitNameLabel.text = description
         cell.lineInfoLabel.text = lineInfo
         if let thumbnail = thumbnail {
             cell.thumbnailImageView.image = UIImage(named: thumbnail)
